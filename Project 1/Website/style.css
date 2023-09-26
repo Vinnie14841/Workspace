@@ -58,6 +58,10 @@ body {
         display: flex;
     }
 
+    li a:hover {
+        background-color: #08435a;
+    }
+
     .navigation_button {
         color: #ffffff;
         align-items: center;
