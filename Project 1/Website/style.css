@@ -50,8 +50,8 @@ nav {
 
 .topheader {
     padding-top: 55px;
+    padding-bottom: 20px;
     text-align: center;
-    font-size: 2rem;
 }
 
 .topheaderImage {
@@ -84,8 +84,20 @@ nav {
     font-size: 2rem;
 }
 
+.balloon h2 {
+    font-size: 1.5rem;
+}
+
 .balloon p {
     font: 1em sans-serif;
+}
+
+iframe {
+    border: none;
+}
+
+.form {
+    padding-top: 55px;
 }
 
 .footer {
