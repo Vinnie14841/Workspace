@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            position: fixed;
+        }
+
+        .noord {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+        }
+        .oost {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+        .zuid {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+        }
+        .west {
+            position: absolute;
+            top: 50%;
+            left: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="kompas.jpg" alt="kompas">
+        <div class="noord">Noord</div>
+        <div class="oost">Oost</div>
+        <div class="zuid">Zuid</div>
+        <div class="west">West</div>
+    </div>
+</body>
+</html>
