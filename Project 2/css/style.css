@@ -1,10 +1,11 @@
 :root {
     --bg-primary: #053b50;
-    --bg-secundary: ;
+    --bg-secundary:#212529;
     --bg-tertiary: ;
     --txt-primary: ;
     --txt-secundary: ;
     --txt-tertiary: grey;
+    --bs-body-color: rgb(222, 226, 230);
 }
 
 .navbar {
@@ -14,7 +15,18 @@
 
 .body {
     padding-top: 60px;
-    height: 1500px; 
+    background-color: var(--bg-secundary);
+    --bs-btn-color: white;
+    --bs-btn-bg: #053b50;
+    --bs-btn-color: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #f8f9fa;
+    --bs-btn-hover-bg: #053b50;
+    
+}
+
+.cards {
+    padding: 50px;
 }
 
 footer {
