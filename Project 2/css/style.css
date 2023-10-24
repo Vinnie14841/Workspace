@@ -1,9 +1,46 @@
 :root {
-    --bg-body-primary: ;
-    --bg-body-secundary: ;
-    --bg-body-tertiary: ;
+    --bg-primary: #053b50;
+    --bg-secundary: ;
+    --bg-tertiary: ;
+    --txt-primary: ;
+    --txt-secundary: ;
+    --txt-tertiary: grey;
 }
 
-body {
+.navbar {
+    background-color: var(--bg-primary);
+    padding: 0 20px;
+}
 
+.body {
+    padding-top: 60px;
+    height: 1500px; 
+}
+
+footer {
+    background-color: var(--bg-primary);
+    color: var(--txt-tertiary)!important;
+    padding-top: 16px;
+}
+
+.footerCopyright {
+    padding: 14.5px;
+    margin: 0;
+}
+
+.footerIcons {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    opacity: 75%;
+}
+
+.footerGithub {
+    padding: 13px;
+    margin: 0;
+}
+
+.githubLink {
+    text-decoration: none;
 }
