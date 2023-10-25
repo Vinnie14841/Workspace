@@ -1,11 +1,17 @@
 :root {
     --bg-primary: #053b50;
     --bg-secundary:#212529;
-    --bg-tertiary: ;
-    --txt-primary: ;
-    --txt-secundary: ;
+    --bg-tertiary: grey;
+    --txt-primary: black;
+    --txt-secundary: white;
     --txt-tertiary: grey;
     --bs-body-color: rgb(222, 226, 230);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -15,18 +21,33 @@
 
 .body {
     padding-top: 60px;
+    padding-bottom: 20px;
     background-color: var(--bg-secundary);
+    box-sizing: border-box;
+}
+
+.btn-light {
     --bs-btn-color: white;
     --bs-btn-bg: #053b50;
     --bs-btn-color: #f8f9fa;
     --bs-btn-border-color: #f8f9fa;
-    --bs-btn-hover-color: #f8f9fa;
-    --bs-btn-hover-bg: #053b50;
-    
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: var(--txt-secundary);
 }
 
 .cards {
     padding: 50px;
+}
+
+.form {
+    padding: 75px 25px;
 }
 
 footer {
@@ -53,6 +74,7 @@ footer {
     margin: 0;
 }
 
-.githubLink {
+.githubLink, .githubLink:hover {
     text-decoration: none;
+    color: var(--txt-tertiary);
 }
