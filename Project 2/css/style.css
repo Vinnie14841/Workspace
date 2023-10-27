@@ -33,8 +33,25 @@
     --bs-btn-border-color: #f8f9fa;
 }
 
+.semi-round {
+    border-radius: 25%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
 .center {
     text-align: center;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.rightalign {
+    text-align: right;
+    box-sizing: border-box;
 }
 
 .btn-link {
@@ -44,10 +61,6 @@
 
 .cards {
     padding: 50px;
-}
-
-.form {
-    padding: 75px 25px;
 }
 
 footer {
@@ -77,4 +90,14 @@ footer {
 .githubLink, .githubLink:hover {
     text-decoration: none;
     color: var(--txt-tertiary);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--txt-tertiary);
+}
+
+.row {
+    padding-left: 0;
+    padding-right: 0;
 }

@@ -43,40 +43,52 @@
       </div>
     </nav>
     <div class="body" data-bs-theme="dark">
-
-        <form class="form">
-            <div class="row mb-3">
-                <div class="col">
-                  <label for="First name" class="form-label">First name</label>
-                  <input type="text" class="form-control" aria-label="First name" required>
-                </div>
-                <div class="col">
-                    <label for="Last name" class="form-label">Last name</label>
-                  <input type="text" class="form-control" aria-label="Last name" required>
-                </div>
+      <div class="row px-4 py-5 center" style="margin: 0px;">
+        <div class="col-lg-5 center">
+          <img class="round" src="images/Closeup.JPEG" alt="Close-up" height="250px" width="250px">
+        </div>
+        <div class="col-lg-7 leftalign">
+          <h1>Vincent Breukeleers</h1>
+          <hr>
+          <h3>Full time Project Engineer at Atlas Copco</h3>
+          <h3>Part time IT Student at Thomas More</h3>
+          <h5>Email: <a class="link" href="mailto:vincent.breukeleers@gmail.com">vincent.breukeleers@gmail.com</a></h5>
+          <h5>Tel: <a class="link" href="tel:+32485451107">+32485451107</a></h5>
+        </div>
+      </div>
+      <form class="px-4 py-5">
+          <div class="row mb-3">
+              <div class="col">
+                <label for="First name" class="form-label">First name</label>
+                <input type="text" class="form-control" aria-label="First name" required>
               </div>
-            <div class="mb-3">
-              <label for="Email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="Email" placeholder="name@example.com" aria-label="Email" required>
+              <div class="col">
+                  <label for="Last name" class="form-label">Last name</label>
+                <input type="text" class="form-control" aria-label="Last name" required>
+              </div>
+            </div>
+          <div class="mb-3">
+            <label for="Email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="Email" placeholder="name@example.com" aria-label="Email" required>
+          </div>
+          <div class="mb-3">
+              <label for="Skill" class="form-label">Skill</label>
+              <select id="Skill" class="form-select">
+                <option selected>Choose...</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>Bootstrap</option>
+                <option>C#</option>
+                <option>SQL</option>
+              </select>
             </div>
             <div class="mb-3">
-                <label for="Skill" class="form-label">Skill</label>
-                <select id="Skill" class="form-select">
-                  <option selected>Choose...</option>
-                  <option>HTML</option>
-                  <option>CSS</option>
-                  <option>JS</option>
-                  <option>Bootstrap</option>
-                  <option>C#</option>
-                  <option>SQL</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="Message" class="form-label">Message</label>
-                <textarea class="form-control" id="Message" rows="5" required></textarea>
-              </div>
-            <button type="submit" class="btn btn-light">Submit</button>
-          </form>
+              <label for="Message" class="form-label">Message</label>
+              <textarea class="form-control" id="Message" rows="5" required></textarea>
+            </div>
+          <button type="submit" class="btn btn-light">Submit</button>
+        </form>
     </div>
     <footer class="bd-footer container-fluid">
       <div class="container text-center">
