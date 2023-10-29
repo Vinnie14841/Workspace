@@ -33,6 +33,10 @@
     --bs-btn-border-color: #f8f9fa;
 }
 
+.quarter-round {
+    border-radius: 12.5%;
+}
+
 .semi-round {
     border-radius: 25%;
 }
