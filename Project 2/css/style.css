@@ -67,6 +67,14 @@
     padding: 50px;
 }
 
+.dark-picture {
+    color: var(--txt-secundary);
+}
+
+.semi-dark-picture {
+    color: darkslategray;
+}
+
 footer {
     background-color: var(--bg-primary);
     color: var(--txt-tertiary)!important;
