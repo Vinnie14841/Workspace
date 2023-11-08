@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oefening 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleoef2.css">
+</head>
+  <body>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/X-Logo.png" alt="Logo" height="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Vehicles</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Starship</a></li>
+                    <li><a class="dropdown-item" href="#">Starlink</a></li>
+                    <li><a class="dropdown-item" href="#">Mars</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-disabled="true">Launches</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+      <div>
+        <h1><strong>
+            Space <img src="images/X-Logo.png" alt="Logo" height="50px">
+        </strong></h1>
+        <p>
+            Discovering space, one rocket at a time.
+        </p>
+        <button type="button" class="btn btn-danger">Sign up for space</button>
+        <button type="button" class="btn btn-dark">image</button>
+        <br>
+        <div class="box">
+            <div class="spinner-border left" role="status" >
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="right">
+                Launching <strong>Falcon Heavy</strong> right now, we'll update you shortly.
+              </div>
+        </div>
+        <h1><strong>News</strong></h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 cards" style="margin: 0px">
+            <div class="col">
+              <div class="card h-100">
+                <a href="#">
+                  <img src="images/spacex.jpg" class="card-img-top" alt="Experiences">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">T minus zero</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt nostrum quo voluptatum delectus sunt! Necessitatibus debitis quidem eaque modi aliquid in velit dolorem, veniam, libero aspernatur harum repudiandae recusandae iusto.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="#">
+                  <img src="images/oil.jpg" class="card-img-top" alt="Extracurricular Activities">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Oil</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at sequi dignissimos illo quis rerum quia accusantium itaque cum asperiores qui eos sit ipsum repellat alias, illum nihil corrupti! Beatae.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="#">
+                  <img src="images/launch.jpg" class="card-img-top" alt="Curriculum Vitae">
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Orbit</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse quo odit asperiores, maxime eius, fuga deserunt, error cum earum soluta ea saepe voluptas quae alias et consectetur voluptatum ab natus.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div>
+        <h1><strong>Vehicles</strong></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nesciunt, architecto debitis officiis maiores vero itaque natus adipisci qui at molestias, iure et dolor tempora nulla in beatae quas. Eum?</p>
+        <ul class="list-group">
+            <li class="list-group-item" aria-current="true">Falcon 1</li>
+            <li class="list-group-item active">Falcon 9</li>
+            <li class="list-group-item">Falcon Heavy</li>
+            <li class="list-group-item">Dragon 2 (Crew Dragon)</li>
+            <li class="list-group-item">Starship</li>
+            <li class="list-group-item">Super Heavy</li>
+        </ul>
+    </div>
+    <div>
+        <h1><strong>Projects</strong></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nulla fugit voluptates, libero commodi voluptatum quia vero dolorum similique aliquid! Molestias nostrum, aut recusandae veritatis facere nulla? Animi, architecto quibusdam.</p>
+        accordion
+    </div>
+    <div>
+        <h1><strong>Next launch</strong></h1>
+        <p>When do we launch</p>
+        <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Launch</th>
+                <th scope="col">Project</th>
+                <th scope="col">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>4 nov 2023 @ 09:00 AM</td>
+                <td>Falcon 9</td>
+                <td>Cape Canaveral</td>
+              </tr>
+              <tr>
+                <td>9 nov 2023 @ 10:00 AM</td>
+                <td>Dragon</td>
+                <td>Cape Canaveral</td>
+              </tr>
+              <tr>
+                <td>17 nov 2023 @ 04:00 AM</td>
+                <td>Starship</td>
+                <td>@Starbase</td>
+              </tr>
+              <tr>
+                <td>21 nov 2023 @ 08:00 AM</td>
+                <td>Starlink</td>
+                <td>Kennedy Space Center</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div>
+        <h1><strong>Launch site</strong></h1>
+    <p>Where we launch our rockets into space.</p>
+    <map name=""></map>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
